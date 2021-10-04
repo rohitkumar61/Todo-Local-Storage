@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    padding: 30px 300px;
+    background-color: #429445;
+    justify-content: space-between;
+    color: white;
+}
+
+#search-input {
+    height: 5vh;
+    width: 30vw;
+}
+
+form {
+    padding: 30px 300px;
+}
+
+.user-input {
+    display: flex;
+}
+
+.output-content {
+    padding: 30px 300px;
+}
+
+.output-item {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+#addTaskInput {
+    height: 5vh;
+    width: 15vw;
+}
+
+.submit {
+    width: 5vw;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+#addTaskButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 10px;
+}
+
+.output-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid gray; */
+    margin: 20px;
+    padding: 10px 50px;
+    background-color: rgb(231, 226, 151);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<main>
+    <header>
+        <div class="item-heading">
+            <h1>Item Lister</h1>
+        </div>
+        <div>
+            <input type="search" id="search-input" class="search-input" placeholder="Search Items..." />
+        </div>
+    </header>
+    <section class="form-content">
+        <form action="" id="add-item">
+            <h1>Add Items</h1>
+
+            <br />
+            <div class="input-field">
+                <input type="text" placeholder="Enter your task" id="addTaskInput" />
+                <button class="addTaskButton" id="addTaskButton">ADD</button>
+
+            </div>
+            <!-- <div class="user-input">
+                <input type="text" id="enter-item" , class="enter-item" />
+                <input type="submit" class="submit" value="Submit" />
+            </div> -->
+        </form>
+    </section>
+    <section class="output-content">
+        <div class="output-item" id="output-item">
+            <!-- <h2 class="item-list">item 1 <button class="dele-btn">X</button></h2> -->
+            <table class="taskList" id="taskList">
+
+            </table>
+
+        </div>
+    </section>
+
+</main>
+
+<body>
+    <script src="app.js"></script>
+</body>
+
+</html>
